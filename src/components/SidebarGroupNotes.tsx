@@ -25,7 +25,7 @@ const SidebarGroupNotes = ({ notes }: Props) => {
       keys: ["text"],
       threshold: 0.4,
     });
-  }, []);
+  }, [localNotes]);
 
   const filterNotes = searchText
     ? fuse.search(searchText).map((result) => result.item)

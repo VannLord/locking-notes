@@ -8,7 +8,7 @@ export const loginAction = async (email: string, password: string) => {
   try {
     const { auth } = await createClient();
 
-    const { data, error } = await auth.signInWithPassword({ email, password });
+    const { error } = await auth.signInWithPassword({ email, password });
 
     if (error) throw error;
 

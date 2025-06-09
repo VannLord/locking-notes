@@ -2,10 +2,8 @@ import { getUser } from "@/app/auth/server";
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
   SidebarGroup,
   SidebarGroupLabel,
-  SidebarHeader,
 } from "@/components/ui/sidebar";
 import { prisma } from "@/db/prisma";
 import { Note } from "@prisma/client";

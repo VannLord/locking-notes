@@ -1,6 +1,6 @@
 "use client";
 
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect } from "react";
 import { Textarea } from "./ui/textarea";
 import { useSearchParams } from "next/navigation";
 import { debounceTimeout } from "@/lib/constants";

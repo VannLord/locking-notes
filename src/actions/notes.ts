@@ -91,7 +91,7 @@ export const askAIAboutNotesAction = async (
     `,
     )
     .join("\n");
-  let text = `
+  const text = `
       You are the a helpful assistant that answers questions about a user's notes.
       Assume all questions are related to the user's notes.
       Make sure that your answers are not too verbose and you speak succinctly.

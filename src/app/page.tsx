@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getUser } from "./auth/server";
 import { prisma } from "@/db/prisma";
 import NewNoteButton from "@/components/NewNoteButton";
